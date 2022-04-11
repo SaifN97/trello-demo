@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .divider {
+    @apply mt-2 h-4 rounded-md border border-l-sky-800 opacity-80;
+  }
+}
