@@ -4,13 +4,13 @@ import { BiFilter, BiDotsHorizontal } from 'react-icons/bi'
 const BoardHeader = () => {
   return (
     <div className="flex flex-wrap justify-between space-y-2 p-2">
-      <div className="flex gap-4">
+      <div className="flex items-center gap-4">
         <h1 className="pl-10 text-lg font-bold text-white md:text-xl">
           Kanban Board
         </h1>
 
         <span className="divider"></span>
-        <button className="flex items-center gap-2 rounded-sm bg-sky-500 px-2 py-1 text-white hover:opacity-90">
+        <button className="flex items-center gap-2 rounded-sm bg-sky-500 px-2 py-1  text-white hover:opacity-90">
           <ImEarth className="text-sm text-white" />
           Public
         </button>
